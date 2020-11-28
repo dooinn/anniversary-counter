@@ -4,3 +4,4 @@ This app counts the number of days that you have dated with your partner and sho
 # Technology used
 HTML, Sass, Vanilla JS
 
+![Alt text](final_version.png)
