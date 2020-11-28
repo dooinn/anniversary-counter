@@ -1,0 +1,30 @@
+.day2 {
+    width:420px;
+    margin:20px auto 20px auto;
+
+   ul {
+        list-style: none;
+        border-bottom:1px dashed #ccc;
+        height:60px;
+        &:last-child {
+            border-bottom:none;
+        }
+      }
+  }
+
+
+  .item-title {
+    float:left;
+    width:160px;        
+    font-weight:bold;
+    font-size:1.5em;
+    line-height:60px;
+  }
+  .item-date {
+    float:left;
+    margin-left:60px;
+    font-size:1.2em;
+    color:#222;
+    text-align:right;
+    line-height:60px;
+  }

@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Jua');
+@import './variables';
+@import './day2';
+@import './day1';
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  background-color: $primaryBg;
+}
+
+@mixin flexCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    @include flexCenter();
+    width:450px;
+    margin:0 auto; 
+    border-radius:2%;
+    box-shadow:2px 2px 5px #333;
+    background-color: $containerBg;
+  }
+
+
+
+.bar{
+      width:100%;
+      margin:60px auto 0 auto;
+      padding-left:15px;
+      height:40px;	
+      background:#747474;
+      color:#fff;
+      font-size:1.2em;
+      line-height:40px;
+  }
+ 
+
